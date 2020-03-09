@@ -1,0 +1,27 @@
+GIT:
+• git log :: ver el historial de commits.
+• git log —stat :: ver el historial de commits con sus específicos cambios en bytes.
+• git add . :: inserta archivos cambios al Staging.
+• git add nombre-archivo :: es para subir solamente un archivo pasándole el nombre del archivo.
+• git branch :: mostrar la lista de ramas y ver en cual se está trabajando actualmente.
+• git show :: muestra el ultimo commit hecho.
+• esc + shift + Z + Z :: comando para salir de la entrega de mensaje a un commit al ejecutar ‘git commit’ sin mensaje.
+• git fetch :: descargar actualizaciones de un repositorio remoto a mi repositorio local.
+• git merge :: descargar actualización de un repositorio remoto a mi directorio de trabajo.
+• git pull :: descargar actualizaciones de un repositorio remoto a mi directorio de trabajo a mi repositorio local.
+• git commit -am “”mensaje :: es el add y commit juntos, (solo funciona con cambios en archivos ya subidos no con archivos nuevos).
+• git merge nombre-rama :: fusionar la rama actual con la rama que se ingresó en el comando (nombre-rama).
+
+• git diff :: muestra la comparación de la data actual en comparación con lo que esta en staged.
+• git diff código-referencia1 código-referencia2 :: comparar cambios entre commits insertando ambos códigos de referencia de los commits.
+
+• git checkout nombre-de-la-rama :: cambiar de una rama a otra.
+• git checkout — . :: regresar al ultimo commit hecho (todos los cambios).
+• git checkout codigo-referencia nombre-archivo :: regresar al commit del código que se insertó en nombre código, se puede ingresar un archivo en especifico o que haga el regreso de la data completa. (Se puede volver al futuro).
+
+• git rm —cached :: elimina los archivos del área de Staging y del próximo commit, pero los mantiene en el disco duro.
+• git rm — force :: elimina los archivos del git y del disco duro, git guarda todo, se puede acceder al registro de la existencia de los archivos, de modo que se podrán recuperar si es necesario.
+
+• git reset HEAD :: comando para sacar archivos del área de Staging.
+• git reset codigo-referencia —soft :: se inserta el código del commit al que se quiere regresar y borra todo pero dejando lo que esté en memoria ram guardado.
+• git reset codigo-referencia —hard :: se inserta el código del commit al que se quiere regresar y borra todo lo posterior, incluyendo lo que esté tracked en memoria ram.
