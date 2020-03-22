@@ -14,4 +14,10 @@ Esta es una prueba de creacion de un buen README.md. Solo estoy jugando con esto
 
 *Jugando con git cherry-pick
 Jajajajjajajajjajja
+<<<<<<< HEAD
 Leroleroleroooooooo
+=======
+Leroleroleroooooooo
+
+Disponible para todas la edades
+>>>>>>> readme-mejorado
