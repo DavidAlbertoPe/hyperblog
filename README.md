@@ -12,3 +12,6 @@ En este curso vemos de todo:
 
 Esta es una prueba de creacion de un buen README.md. Solo estoy jugando con esto.
 
+*Jugando con git cherry-pick
+Jajajajjajajajjajja
+Leroleroleroooooooo
